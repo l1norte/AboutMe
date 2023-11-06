@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(181, 230, 221);
+    color: black;
+    font-family:URW Chancery L, cursive;
+    font-size: 16px;
+    margin-left: 10 px;
+  }
+  
+  header {
+
+    background-color: rgb(181, 230, 221);
+    color: rgb(0, 0, 0);;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  main {
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  .social-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.social-link.discord {
+    background-color: #7289DA;
+}
+
+.social-link.github {
+    background-color: #333;
+}
+
+.social-link.telegram {
+    background-color: #0088cc;
+}
+
+.social-link:hover {
+    background-color: #555; /* Изменение цвета при наведении курсора */
+}
